@@ -11,7 +11,7 @@ def test_alterardeposito():
     conta.deposito(100)
     assert conta.saldo == 100
 
-def test_alterardeposito():
+def test_alterarsaque():
     conta = ContaCorrente(7,"Wallas", 100)
     conta.saque(100)
     assert conta.saldo == 0
